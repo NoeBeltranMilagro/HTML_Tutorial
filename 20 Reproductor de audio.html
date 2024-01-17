@@ -1,0 +1,37 @@
+<!-- El tag "audio" con el atributo "controls" crea un reproductor de música con su respectivo audio. -->
+<!-- Desde la versión 5 de HTML no es necesario poner un valor en el atributo "controls" para que funcione. Por ejemplo, "audiocontrols". -->
+<!-- El tag "audio" con el atributo "controls" y "autoplay" reproduce el audio automáticamente al acceder a la página web (para que este atributo funcione hay que hacer una serie de configuraciones en tu navegador para que funcione, convirtiendo esta acción en algo tedioso y poco recomendable). -->
+<!-- El tag "audio" con el atributo "controls" y "loop" reproduce el audio en bucle. -->
+<!-- El tag "audio" con el atributo "controls" y "draggable" nos permite agarrar el audio con el click. -->
+<!doctype html>
+<html>
+
+<head>
+	
+</head>
+<body>
+	<fieldset>
+		<legend> Temazos </legend>
+			<audio controls="audiocontrols">
+				<source src="Galneryus - The Time Has Come.mp3">
+			</audio>
+			<br>
+			<audio controls="">
+				<source src="Galneryus - The Force Of Courage.mp3">
+			</audio>
+			<br>
+			<audio controls="" autoplay="">
+				<source src="Galneryus - Never Again.mp3">
+			</audio>
+			<br>
+			<audio controls="" loop="">
+				<source src="Galneryus - Never Again.mp3">
+			</audio>
+			<br>
+			<audio controls="" draggable="true">
+				<source src="Galneryus - Never Again.mp3">
+			</audio>
+	</fieldset>
+</body>
+
+</html>

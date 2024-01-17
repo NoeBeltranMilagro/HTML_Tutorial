@@ -1,0 +1,19 @@
+<!-- El tag "iframe" sirve para enlazar un archivo para que se vea en un cuadro visible. Se suelen utilizar como pop-up de mensajes, anuncios, notas, etc. Su ventaja es que nos permite mostrar un archivo sin tener que refrescar la página, abrir una nueva pestaña, etc. -->
+<!-- El atributo "frameborder" sirve para mostrar u ocultar el recuadro que rodea al iframe. "1" para activarlo y "2" para desactivarlo. -->
+<!-- Para que otro archivo distinto a la página web aparezca dentro del iframe, necesitamos enlazar un "name" dentro del iframe con un "target" dentro de un href (como aparece en el ejemplo). También podemos, simplemente, introducir el archivos que queramos visualizar en un "src" dentro del iframe. El atributo "id" lo utilizaríamos para el lenguaje CSS. -->
+<!doctype html>
+<html>
+
+<head>
+
+</head>
+
+<body>
+<iframe frameborder="1" width="200" height="200" src="15 Caracteres especiales.html" name="ouriframe" id="ouriframe"></iframe>
+<br>
+<a href="15 Caracteres especiales.html" target="ouriframe">15 Caracteres especiales</a>
+<br>
+<a href="16 Tipos de letra.html" target="ouriframe">16 Tipos de letra</a>
+</body>
+
+</html>
